@@ -6,6 +6,7 @@ for pair in ${conditions//;/ } ; do
   condition1="${pair%%,*}"
   condition2="${pair#*,}"
 
+  ##  -----------
   ##  PSEUDO-CODE
   ##  -----------
   ##
